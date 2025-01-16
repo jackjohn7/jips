@@ -1,0 +1,16 @@
+[package]
+name = "jips"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "jips"
+path = "src/lib.rs"
+
+[[bin]]
+name = "jipsc"
+path = "src/main.rs"
+
+[dependencies]
+chumsky = "0.9.3"
+logos = "0.15.0"
